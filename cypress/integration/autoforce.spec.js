@@ -32,7 +32,7 @@ describe('My First Test', () => {
       cy.get('.form-modal__body [data-type=select-one]').click()
       .contains('São Paulo').click()
       cy.get('.modal__overlay .button--whatsapp').click()
-      cy.url().should('have.text', 'Converse com +55 84 99999-9999 no WhatsApp')
+      
     
   })
   it('Mostrar mensagem de campo obrigatório no formulário de whatsapp', () => {
